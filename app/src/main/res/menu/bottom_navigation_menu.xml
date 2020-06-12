@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_input"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Input" />
+
+    <item
+        android:id="@+id/navigation_average"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Averages" />
+
+    <item
+        android:id="@+id/navigation_records"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="All" />
+
+</menu>
