@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.midterm_2.fragments.FirstFragment"
+        android:label="Input Details"
+        tools:layout="@layout/first_fragment">
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_notification"
+            app:destination="@id/navigation_notification" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.midterm_2.fragments.SecondFragment"
+        android:label="Average Statistics"
+        tools:layout="@layout/second_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.example.midterm_2.fragments.ThirdFragment"
+        android:label="All Statistics"
+        tools:layout="@layout/third_fragment">
+
+        <argument
+            android:name="amount"
+            android:defaultValue="-1"
+            app:argType="integer" />
+
+    </fragment>
+
+</navigation>

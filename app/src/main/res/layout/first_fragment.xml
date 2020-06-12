@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/first_frag"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/loginscrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Input Details"
+        android:textColor="#f29d02"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Amount of Steps"
+        android:textColor="#9ca9bd"/>
+    <EditText
+        android:id="@+id/steps_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#20ffffff"
+        android:textColorHint="#e63946"
+        android:textColor="#9ca9bd"/>
+    <TextView
+        android:id="@+id/second_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories Burnt"
+        android:textColor="#9ca9bd"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/calories_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="number"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#20ffffff"
+        android:textColorHint="#e63946"
+        android:textColor="#9ca9bd"/>
+
+    <TextView
+        android:id="@+id/third_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Avg Heart Rate"
+        android:textColor="#9ca9bd"/>
+    <EditText
+        android:id="@+id/bpm_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#20ffffff"
+        android:textColorHint="#e63946"
+        android:textColor="#9ca9bd"/>
+    <TextView
+        android:id="@+id/fourth_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Consumed (L)"
+        android:textColor="#9ca9bd"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/water_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="number"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#20ffffff"
+        android:textColorHint="#e63946"
+        android:textColor="#9ca9bd"/>
+    <TextView
+        android:id="@+id/fifth_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours Slept"
+        android:textColor="#9ca9bd"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/hours_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="number"
+        android:ems="10"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#20ffffff"
+        android:textColorHint="#e63946"
+        android:textColor="#9ca9bd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/reset_btn"
+            android:background="@drawable/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textColor="#fff"
+            android:text="Reset" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:background="@drawable/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:textColor="#fff"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#f2bc59"
+        android:textSize="20dp" />
+
+</LinearLayout>
